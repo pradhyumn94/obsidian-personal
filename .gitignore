@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Obsidian workspace & cache (local state, not worth syncing)
+**/.obsidian/workspace.json
+**/.obsidian/workspace-mobile.json
+**/.obsidian/cache
+**/.obsidian/plugins/*/data.json
+!.obsidian/plugins/templater-obsidian/data.json
+
+# Obsidian sync & trash
+.obsidian-sync/
+.trash/
+
+# Logs
+*.log
