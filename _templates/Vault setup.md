@@ -19,14 +19,14 @@ Project notes under `1 Projects/` use YAML **`status`**. The weekly template lis
 
 Other values (e.g. **`planning`**, **`paused`**, **`done`**) are **not** listed until you set `status: active` for work you are driving this week.
 
-## Tasks and Open tasks
+## Tasks and Home.md
 
-- In the work log, link tasks to a project note: `- [ ] [[Your project]] …`
-- [Open tasks](Open%20tasks.md) lists open tasks from **Work log** and **1 Projects**: **This Week** (current week file) first, then **Everything Else** sorted by note modification time. Headings can show a project wikilink when tasks link to `1 Projects/` (excluding `Archive`).
+- Link tasks to a project note wherever you write them: `- [ ] [[Your project]] …` — Work log entries are the usual place, but there's no hard rule against a checkbox elsewhere.
+- [Home](Home.md) lists open tasks from **Work log** and **1 Projects**: **This Week** (current week file) first, then **Everything Else** sorted by note modification time. Headings can show a project wikilink when tasks link to `1 Projects/` (excluding `Archive`).
 
-### If Open tasks looks like a gray code block
+### If Home.md's task list looks like a gray code block
 
 1. **Settings → Community plugins**: ensure **Dataview** is installed and enabled.
 2. **Settings → Dataview**: turn on **Enable JavaScript Queries** (and inline JS if you use it elsewhere).
-3. Use **Reading view** (or Live Preview with Dataview’s live-preview options), not raw **Source mode**, to see the query run.
-4. The note must include normal markdown **above** the fenced **dataviewjs** block (e.g. the `# Open tasks` heading). A file that contains **only** a fenced code block and no other markdown can be treated as plain code so Dataview never runs.
+3. Use **Reading view** (or Live Preview with Dataview's live-preview options), not raw **Source mode**, to see the query run.
+4. The note must include normal markdown **above** the fenced **dataviewjs** block (e.g. the `# Home` heading). A file that contains **only** a fenced code block and no other markdown can be treated as plain code so Dataview never runs.

@@ -34,3 +34,9 @@ created: <% tp.date.now("YYYY-MM-DD") %>
 
 ## Plan for Next Week
 -
+
+## Every 4th Week — Zoom Out
+<!-- Fill this section out only once a month. Delete it the other 3 weeks. -->
+- Re-score confidence (1-5) vs. last month: DSA / System Design / Distributed Systems / AI Platform / Behavioral —
+- Milestones in [[1 Projects/Interview Prep 2026]] still realistic? Adjust the table if not —
+- Any DSA pattern ready to drop out of active rotation (mastered)? —
