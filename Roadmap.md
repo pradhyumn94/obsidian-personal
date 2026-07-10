@@ -1,8 +1,6 @@
 # 24-Week Roadmap
 
-Senior/Staff Backend & AI Platform Engineer prep. Adjust dates and pace as reality dictates — this is a plan, not a contract. Update [[Dashboard]] weekly with what actually happened.
-
-Legend: **DSA** · **HLD** · **LLD** · **Backend** · **AI** · **Mock**
+Senior/Staff Backend & AI Platform Engineer prep.
 
 ## Phase 1 — Foundations (Weeks 1-4)
 | Week | DSA | HLD | LLD | Backend | AI | Mock |
