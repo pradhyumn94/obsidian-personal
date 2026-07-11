@@ -1,5 +1,5 @@
 
-[[index|← Design Patterns]]
+[[Prep 2026/01 LLD/Design Patterns/index|← Design Patterns]]
 
 ```python 
 from enum import Enum

@@ -1,5 +1,5 @@
 
-[[index|← Design Patterns]]
+[[Prep 2026/01 LLD/Design Patterns/index|← Design Patterns]]
 
 Drawing a state diagram is one of the best ways to communicate a state machine design in an interview.
 

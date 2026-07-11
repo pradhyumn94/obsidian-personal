@@ -3,12 +3,12 @@
 Senior/Staff Backend & AI Platform Engineer prep.
 
 ## Phase 1 — Foundations (Weeks 1-4)
-| Week | DSA | HLD | LLD | Backend | AI | Mock |
-|---|---|---|---|---|---|---|
-| 1 | Arrays, Strings, Hashing | Read: scalability basics | OOP + SOLID refresh | Networking fundamentals | LLM basics, tokens/embeddings | — |
-| 2 | Two Pointers, Sliding Window | URL Shortener | Design a Parking Lot | Concurrency fundamentals | Prompting, context windows | — |
-| 3 | Stack, Queue, Linked List | Rate Limiter | Design a Library System | Databases: SQL vs NoSQL | RAG basics | — |
-| 4 | Trees, BST | Pastebin | Design an Elevator System | Redis fundamentals | Vector databases | Self mock: 1 DSA + 1 HLD |
+| Week | DSA                          | HLD                      | LLD                       | Backend                  | AI                            | Mock                     |
+| ---- | ---------------------------- | ------------------------ | ------------------------- | ------------------------ | ----------------------------- | ------------------------ |
+| 1    | Arrays, Strings, Hashing     | Read: scalability basics | OOP + SOLID refresh       | Networking fundamentals  | LLM basics, tokens/embeddings | —                        |
+| 2    | Two Pointers, Sliding Window | URL Shortener            | Design a Parking Lot      | Concurrency fundamentals | Prompting, context windows    | —                        |
+| 3    | Stack, Queue, Linked List    | Rate Limiter             | Design a Library System   | Databases: SQL vs NoSQL  | RAG basics                    | —                        |
+| 4    | Trees, BST                   | Pastebin                 | Design an Elevator System | Redis fundamentals       | Vector databases              | Self mock: 1 DSA + 1 HLD |
 
 ## Phase 2 — Core Depth (Weeks 5-8)
 | Week | DSA | HLD | LLD | Backend | AI | Mock |
