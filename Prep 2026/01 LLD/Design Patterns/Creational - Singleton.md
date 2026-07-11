@@ -1,0 +1,1 @@
+[[index|← Design Patterns]]

@@ -1,3 +1,5 @@
+[[index|← Design Patterns]]
+
 Simple Factory 
 - [ ] Read bout GOF Factory 
 ```python 

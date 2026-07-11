@@ -1,4 +1,6 @@
 
+[[index|← Design Patterns]]
+
 ```python 
 from enum import Enum
 
