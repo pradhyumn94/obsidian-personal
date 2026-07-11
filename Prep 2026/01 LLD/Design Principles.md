@@ -7,7 +7,7 @@
 	5. Law of demeter - Principle of least knowledge
 	
 2. Object oriented design principles (SOLID)
-	1. SRP - Single Responsibility principle
+	1. SRP - Single Responsibility principle - one reason to change
 	2. OCP - Open closed principle
 	3. LSP - Liskov Substitution principle
 	4. ISP - Interface segregation principle
