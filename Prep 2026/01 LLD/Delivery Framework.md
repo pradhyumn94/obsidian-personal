@@ -1,4 +1,3 @@
-[[Excalidraw/Delivery framework]]
 
 1. Requirements - 5min 
 	- **Primary capabilities** — What operations must this system support?
