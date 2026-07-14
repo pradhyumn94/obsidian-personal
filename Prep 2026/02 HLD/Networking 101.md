@@ -1,4 +1,4 @@
-![[OSI Model]]
+![[Excalidraw/Networking 101]]
 
 
 
