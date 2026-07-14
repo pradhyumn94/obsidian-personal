@@ -25,7 +25,7 @@ Several options are available with most load balancers:
 - **Least Response Time**: Requests go to the server with the fastest response time
 - **IP Hash**: Client IP determines which server receives the request (useful for session persistence)
 
-Types of load 
+Types of load balancers
 - **Hardware Load Balancers**: Physical devices like F5 Networks BIG-IP
 - **Software Load Balancers**: HAProxy, NGINX, Envoy
 - **Cloud Load Balancers**: AWS ELB/ALB/NLB, Google Cloud Load Balancing, Azure Load Balancer
