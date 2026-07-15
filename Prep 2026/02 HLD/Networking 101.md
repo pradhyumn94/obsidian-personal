@@ -8,6 +8,7 @@ Topics to read up on
 - [ ] WebRTC (I know this just a refresh needed)
 - [ ] CFRDT (Conflict free resolution data types)
 - [ ] Layer-4 vs layer-7 load balancer
+- [ ] **retry with exponential backoff** (jitter) https://builder.aws.com/content/3EumjoZascWd1oZiEgL8ORlv3qE/timeouts-retries-and-backoff-with-jitter
 
 
 #### Key Characteristics of TCP
@@ -29,3 +30,18 @@ Types of load balancers
 - **Hardware Load Balancers**: Physical devices like F5 Networks BIG-IP
 - **Software Load Balancers**: HAProxy, NGINX, Envoy
 - **Cloud Load Balancers**: AWS ELB/ALB/NLB, Google Cloud Load Balancing, Azure Load Balancer
+
+
+Circuit Breaker
+1. The circuit breaker monitors for failures when calling external services
+2. When failures exceed a threshold, the circuit "trips" to an open state
+3. While open, requests immediately fail without attempting the actual call
+4. After a timeout period, the circuit transitions to a "half-open" state
+5. A test request determines whether to close the circuit or keep it open
+   
+- Fail Fast: Quickly reject requests to failing services instead of waiting for timeouts
+- Reduce Load: Prevent overwhelming already struggling services with more requests
+- Self-Healing: Automatically test recovery without full traffic load
+- Improved User Experience: Provide fast fallbacks instead of hanging UI
+- System Stability: Prevent failures in one service from affecting the entire system
+
