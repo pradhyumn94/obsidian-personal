@@ -5,8 +5,58 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Prep 2026/01 LLD\"",
+      "color": {
+        "a": 1,
+        "rgb": 5020415
+      }
+    },
+    {
+      "query": "path:\"Prep 2026/02 HLD\"",
+      "color": {
+        "a": 1,
+        "rgb": 16755021
+      }
+    },
+    {
+      "query": "path:\"Prep 2026/03 Engineering Notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 6547134
+      }
+    },
+    {
+      "query": "path:\"Prep 2026/04 Weekly log\"",
+      "color": {
+        "a": 1,
+        "rgb": 11638780
+      }
+    },
+    {
+      "query": "path:\"Prep 2026/05 Interview Notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 16746375
+      }
+    },
+    {
+      "query": "path:\"Excalidraw\"",
+      "color": {
+        "a": 1,
+        "rgb": 16766011
+      }
+    },
+    {
+      "query": "path:\"_templates\"",
+      "color": {
+        "a": 1,
+        "rgb": 11384253
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.9635146031265202,
+  "scale": 1.2754245006257996,
   "close": true
 }

@@ -4,19 +4,19 @@ Progress tracker. Check a box once the topic has a note in the matching `Enginee
 
 ## Networking
 
-- [ ] TCP
-- [ ] UDP
-- [ ] HTTP
+- [x] TCP ✅ 2026-07-20
+- [x] UDP ✅ 2026-07-20
+- [x] HTTP ✅ 2026-07-20
 - [ ] HTTP2
-- [ ] HTTP3
-- [ ] TLS
-- [ ] gRPC
+- [ ] HTTP3 - QUIC
+- [x] TLS ✅ 2026-07-20
+- [x] gRPC ✅ 2026-07-20
 - [ ] WebSockets
 
 ## Databases
 
-- [ ] Indexes
-- [ ] B+ Trees
+- [x] Indexes ✅ 2026-07-20
+- [x] B+ Trees ✅ 2026-07-20
 - [ ] MVCC
 - [ ] Transactions
 - [ ] Isolation Levels

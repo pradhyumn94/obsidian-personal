@@ -1,32 +1,21 @@
 # Vault setup
 
-## Rhythm
-
-- **Core Daily notes** are off. Weeks are created by **Templater** ([`_templates/Startup.md`](_templates/Startup.md)) when you open Obsidian **Monday–Wednesday** if `Work log/<week-start>.md` is still missing.
-- There is no `.obsidian/daily-notes.json` by design (weekly-only workflow).
-
 ## New machine
 
 1. Clone this repo and open the folder as an Obsidian vault.
-2. **Settings → Community plugins**: enable, then install **Templater**, **Tasks**, **Dataview**, **Obsidian Git**, **Terminal**, **Excalidraw** (or match [`.obsidian/community-plugins.json`](.obsidian/community-plugins.json)).
-3. **Templater** startup path is versioned in [`.obsidian/plugins/templater-obsidian/data.json`](.obsidian/plugins/templater-obsidian/data.json) (see `.gitignore` exception). Reload if startup templates do not run.
+2. **Settings → Community plugins**: enable, then match [`.obsidian/community-plugins.json`](../.obsidian/community-plugins.json) — currently: Templater, Tasks, Obsidian Git, Dataview, Omnisearch, Settings Search, Local REST API, Linter, Excalidraw, Kanban, Terminal.
 
-## Projects and the weekly list
+## How notes get created
 
-Project notes under `1 Projects/` use YAML **`status`**. The weekly template lists only:
+There's no daily-notes or auto-template automation wired up. Templates in this folder are copy-paste (see [`README.md`](README.md)):
+1. Open the relevant template file.
+2. Select all, copy.
+3. Create your new note in the right `Prep 2026/` subfolder, paste, then fill in the placeholders and delete them.
 
-- **`active`** — shown under **Projects** in new week files.
+## Structure
 
-Other values (e.g. **`planning`**, **`paused`**, **`done`**) are **not** listed until you set `status: active` for work you are driving this week.
+Everything prep-related lives under `Prep 2026/`, numbered by track: `01 LLD/`, `02 HLD/`, `03 Engineering Notes/`, `04 Weekly log/`, `05 Interview Notes/`. Each subfolder has its own `README.md` defining what belongs there and the naming convention — read that before adding a note, not this file.
 
-## Tasks and Home.md
+## Weekly log
 
-- Link tasks to a project note wherever you write them: `- [ ] [[Your project]] …` — Work log entries are the usual place, but there's no hard rule against a checkbox elsewhere.
-- [Home](Home.md) lists open tasks from **Work log** and **1 Projects**: **This Week** (current week file) first, then **Everything Else** sorted by note modification time. Headings can show a project wikilink when tasks link to `1 Projects/` (excluding `Archive`).
-
-### If Home.md's task list looks like a gray code block
-
-1. **Settings → Community plugins**: ensure **Dataview** is installed and enabled.
-2. **Settings → Dataview**: turn on **Enable JavaScript Queries** (and inline JS if you use it elsewhere).
-3. Use **Reading view** (or Live Preview with Dataview's live-preview options), not raw **Source mode**, to see the query run.
-4. The note must include normal markdown **above** the fenced **dataviewjs** block (e.g. the `# Home` heading). A file that contains **only** a fenced code block and no other markdown can be treated as plain code so Dataview never runs.
+`Prep 2026/04 Weekly log/` holds one file per week (`Week N (date range).md`), created manually from `Weekly Review Template.md`. There's no Templater startup script generating these — no `Work log/` or `1 Projects/` folder exists in this vault (that was an earlier, since-replaced setup).

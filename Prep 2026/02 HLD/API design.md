@@ -2,7 +2,7 @@
 
 API Types:
 	Rest 
-	Graphql 
+	[[GraphQL Foundations|Graphql]]
 	GRPC
 
 
