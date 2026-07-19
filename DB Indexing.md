@@ -33,7 +33,8 @@ Types of Indexes
 		- **Write-Ahead Log (WAL)**: To ensure durability, every write is also appended to a write-ahead log on disk. This is a sequential append operation, which is much faster than random writes.
 		- **Flush to SSTable**: Once the memtable reaches a certain size (often a few megabytes), it's frozen and flushed to disk as an immutable Sorted String Table (SSTable). This is a single sequential write operation that can write megabytes of data at once.
 		- **Compaction**: Over time, you accumulate many SSTables on disk. A background process called compaction periodically merges these files, removing duplicates and deleted entries. This keeps the number of files manageable and maintains read performance.
- 3. Geospatial Indexes
+		- 
+3. Geospatial Indexes
 	 - Think why 2 Btree indexes can't solve 2d data lookup - 
 	 1. Geohash 
 		 1. Keep splitting every block of data into 4 
@@ -42,4 +43,14 @@ Types of Indexes
 		 4. **Negative** - two locations on opposite sides of a street that marks a geohash boundary might not share similar prefixes
 	 2. Quad tree
 	 3. R tree
- 
+		  - quadtree rigidly divides each region into four equal parts regardless of data distribution, R-trees adapt their rectangles to the actual data
+		  - rectangles aren't constrained to fixed sizes or positions - they adapt to wherever your data actually clusters
+		- R-trees can efficiently handle both points and larger shapes in the same index structure. A single R-tree can index everything from individual restaurant locations to delivery zone polygons and road networks
+ 4. Inverted Indexes
+
+## Index Optimization Patterns
+### Composite Indexes
+- When we create a composite index, we're really creating a B-tree where each node's key is a concatenation of our indexed columns
+- **Order** - Our index on (user_id, created_at) is great for queries that filter on user_id first, but it's not helpful for queries that only filter on created_at. This follows from how B-trees work - we can only use the index efficiently for prefixes of our column list.
+### Covering Indexes
+- A covering index is one that includes all the columns needed by your query - not just the columns you're filtering or sorting on.
