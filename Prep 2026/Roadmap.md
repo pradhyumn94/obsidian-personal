@@ -1,5 +1,5 @@
 
-## Week 1 — Done (13-19 July)
+## Week 1 —  (13-19 July)
 | Dates       | DSA                      | HLD                      | LLD                 | Backend                 | AI                            | Mock |
 | ----------- | ------------------------ | ------------------------ | ------------------- | ----------------------- | ----------------------------- | ---- |
 | 13-19 July  | Arrays, Strings, Hashing | Read: scalability basics | OOP + SOLID refresh | Networking fundamentals | LLM basics, tokens/embeddings | —    |
