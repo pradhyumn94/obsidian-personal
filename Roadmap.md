@@ -51,5 +51,5 @@ Senior/Staff Backend & AI Platform Engineer prep.
 | 24 | Light review only | Light review only | Light review only | Light review only | Light review only | Real interview loops + debriefs |
 
 ## Notes
-- Revisit this table every 4th week during [[Weekly Tracker]] review — shift dates if a phase runs long, don't just push through behind schedule.
-- One HLD or LLD write-up per design session, filed in `HLD/` or `LLD/` using the templates in `Templates/`.
+- Revisit this table every 4th week during your weekly log review (`Prep 2026/04 Weekly log/`) — shift dates if a phase runs long, don't just push through behind schedule.
+- One HLD or LLD write-up per design session, filed in `Prep 2026/02 HLD/` or `Prep 2026/01 LLD/` using the templates in `_templates/`.

@@ -21,8 +21,6 @@ Types of Indexes
 		- They minimize disk I/O by matching their structure to how databases store data
 		- They handle both equality searches (email = 'x') and range searches (age > 25) equally well
 		- They remain balanced even with random inserts and deletes, avoiding the performance cliffs you might see with simpler tree structures
-
-
 2. LSM Trees 
 		1. Negative impact on reads  - Read has to check at multiple places (memTable, immutable MemTables, SSTable)
 			- **Bloom Filters**: Each SSTable has an associated bloom filter - a probabilistic data structure that can quickly tell you if a key is definitely NOT in that file. This lets you skip most SSTables without reading them. If the bloom filter says "maybe", you still need to check, but it eliminates the definite misses.
@@ -35,7 +33,6 @@ Types of Indexes
 		- **Compaction**: Over time, you accumulate many SSTables on disk. A background process called compaction periodically merges these files, removing duplicates and deleted entries. This keeps the number of files manageable and maintains read performance.
 		- 
 3. Geospatial Indexes
-	 - Think why 2 Btree indexes can't solve 2d data lookup - 
 	 1. Geohash 
 		 1. Keep splitting every block of data into 4 
 		 2. locations that are close to each other usually share similar prefix strings 
@@ -46,7 +43,7 @@ Types of Indexes
 		  - quadtree rigidly divides each region into four equal parts regardless of data distribution, R-trees adapt their rectangles to the actual data
 		  - rectangles aren't constrained to fixed sizes or positions - they adapt to wherever your data actually clusters
 		- R-trees can efficiently handle both points and larger shapes in the same index structure. A single R-tree can index everything from individual restaurant locations to delivery zone polygons and road networks
- 4. Inverted Indexes
+4. Inverted Indexes
 
 ## Index Optimization Patterns
 ### Composite Indexes

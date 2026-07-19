@@ -2,12 +2,12 @@
   "templater-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-git",
-  "terminal",
   "dataview",
   "omnisearch",
   "settings-search",
   "obsidian-local-rest-api",
   "obsidian-linter",
   "obsidian-excalidraw-plugin",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "terminal"
 ]
