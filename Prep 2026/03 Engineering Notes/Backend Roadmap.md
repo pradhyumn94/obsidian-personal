@@ -23,6 +23,7 @@ Progress tracker. Check a box once the topic has a note in the matching `Enginee
 - [ ] Query Optimizer
 - [ ] Replication
 - [ ] Partitioning
+- [ ] Sharding
 
 ## Distributed Systems
 
