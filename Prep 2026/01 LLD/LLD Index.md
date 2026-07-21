@@ -1,6 +1,7 @@
 # LLD Index
 
 Progress tracker. Check a box once its note is written in this folder (same name as the problem).
+
 ## Infrastructure Components
 - [ ] [[LRU Cache]]
 - [ ] [[Prep 2026/01 LLD/Rate Limiter|Rate Limiter]]

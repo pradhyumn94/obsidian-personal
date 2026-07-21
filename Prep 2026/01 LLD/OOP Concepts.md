@@ -4,6 +4,7 @@ The concepts show through in how you design, not in what you name. Focus on appl
 - **Abstraction**: Define interfaces for variations. Multiple payment methods? Different vehicle types? Create an interface
 - **Polymorphism**: Let objects handle themselves. No type checking, no switch statements on types
 - **Inheritance**: Compose behavior, don't inherit it. Reach for interfaces first, use inheritance only when sharing stable implementation
+
 ## Encapsulation
 
 If you're designing a class and wondering whether to expose a field or write a getter, write the getter. If you need to return a collection, return an unmodifiable view or a copy.
@@ -59,7 +60,6 @@ class ParkingLot:
 
 
 ```
-
 
 ## Abstraction
 
@@ -184,7 +184,6 @@ class ParkingLot:
 
 ```
 
-
 ## Inheritance
 
 When a subclass inherits the parent's fields and methods, any change in the parent can break every child. That's the "fragile base class" problem, and it's why inheritance often creates more rigidity than it solves.
@@ -223,9 +222,5 @@ class Car:
 
 
 ```
-
-
-
-
 
 

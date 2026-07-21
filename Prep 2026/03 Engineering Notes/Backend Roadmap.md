@@ -22,8 +22,8 @@ Progress tracker. Check a box once the topic has a note in the matching `Enginee
 - [ ] Isolation Levels
 - [ ] Query Optimizer
 - [ ] Replication
-- [ ] Partitioning
-- [ ] Sharding
+- [x] Partitioning ✅ 2026-07-21
+- [x] Sharding ✅ 2026-07-21
 
 ## Distributed Systems
 

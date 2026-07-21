@@ -6,6 +6,7 @@
 ## Requirements
 ### Functional
 -
+
 ### Non-Functional
 - Scale (DAU / QPS / data volume):
 - Latency target:

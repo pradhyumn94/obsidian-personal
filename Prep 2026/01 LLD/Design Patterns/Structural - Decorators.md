@@ -1,8 +1,6 @@
-
 [[Prep 2026/01 LLD/Design Patterns/index|← Design Patterns]]
 
 Use a Decorator when you need to add behavior at runtime based on conditions, like wrapping a service with logging only in debug mode or adding caching only for certain requests. It lets you layer optional, combinable features without modifying the underlying class. In most other cases, use normal subclasses, where the new behavior is fixed at design time and represents a stable variation of the original type. If the behavior depends on runtime conditions, choose Decorator; if it’s a predefined type difference, choose Subclass.
-
 
 ```python 
 

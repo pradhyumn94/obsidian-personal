@@ -1,5 +1,3 @@
- 
-
 GraphQL is a query language for APIs and a server-side runtime for executing those queries using a type system defined for your data. Unlike traditional REST APIs that require hitting multiple URLs to aggregate data, GraphQL allows you to make a single request to a single endpoint and ask for exactly what you need.
 
 ---
@@ -19,8 +17,7 @@ query {
 }
 ```
 
-```json 
-
+```json
 # The JSON Response returned by the server
 {
   "data": {
@@ -41,9 +38,7 @@ Fields can also be nested to fetch deeply related resources in a single network 
 
 ### Query with Arguments and Nested Fields
 
-GraphQL
-
-```
+```graphql
 query {
   user(id: "42") {
     name
@@ -60,9 +55,7 @@ The **Schema** acts as a contract between the client and the server. It uses **S
 
 ### Example Schema Definition
 
-GraphQL
-
-```
+```graphql
 type User {
   id: ID!
   name: String!
@@ -83,9 +76,7 @@ type Post {
 
 The `Query` type acts as the entry point for lookups. If a top-level field is not explicitly defined here, it cannot be requested by clients.
 
-GraphQL
-
-```
+```graphql
 type Query {
   user(id: ID!): User
   allPosts: [Post!]!
@@ -98,9 +89,7 @@ The schema provides the blueprint, but **Resolvers** provide the execution logic
 
 ### Resolver Execution (JavaScript/Node.js Example)
 
-JavaScript
-
-```
+```javascript
 const resolvers = {
   Query: {
     user: async (parent, args, context) => {
@@ -125,9 +114,7 @@ To create, update, or delete data, GraphQL uses **Mutations**. While structurall
 
 ### Schema Definition
 
-GraphQL
-
-```
+```graphql
 type Mutation {
   createPost(title: String!, content: String!): Post!
 }
@@ -135,9 +122,7 @@ type Mutation {
 
 ### Client Request
 
-GraphQL
-
-```
+```graphql
 mutation {
   createPost(title: "Learning GraphQL", content: "It's going great!") {
     id
@@ -152,9 +137,7 @@ To keep queries reusable and secure, dynamic values should be extracted into a s
 
 ### Query Template
 
-GraphQL
-
-```
+```graphql
 query GetUserById($userId: ID!) {
   user(id: $userId) {
     name
@@ -165,9 +148,7 @@ query GetUserById($userId: ID!) {
 
 ### Variables Payload
 
-JSON
-
-```
+```json
 {
   "userId": "42"
 }
@@ -188,7 +169,7 @@ In enterprise scale schemas, edges often encapsulate metadata about the connecti
 
 GraphQL
 
-```graphql 
+```graphql
 query {
   user(id: "42") {
     posts {
@@ -206,8 +187,6 @@ query {
 ## 8. Reference Implementation: Minimal Apollo Server
 
 Below is an end-to-end basic server configuration utilizing `@apollo/server`.
-
-JavaScript
 
 ```typescript
 import { ApolloServer } from '@apollo/server';

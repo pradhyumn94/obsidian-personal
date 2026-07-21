@@ -1,10 +1,10 @@
+## Database Model Options
 
-Database Model Options
-	1. Relational
-	2. Document
-	3. Wide column
-	4. Key-val store
-	5. Graph database
+1. Relational
+2. Document
+3. Wide column
+4. Key-val store
+5. Graph database
 
 1. Determine the type of database you'll use
 2. List the columns needed to fulfill the functional requirements for each entity

@@ -1,8 +1,6 @@
-
 1. LLM - A neural network trained to predict the next token.
 2. Tokenization -  Text -> Tokens -> Numbers ->Neural Network
 3. Token IDs - Once split every token gets an ID.
-
 
 Why IDs are not enough ?
 ```
@@ -17,11 +15,12 @@ No.
 There is no mathematical relationship.
 ```
 
-Embeddings
-	Embedding captures semantic meaning.
-	Not spelling.
-	Not grammar.
-	Meaning.
+## Embeddings
+
+Embedding captures semantic meaning.
+Not spelling.
+Not grammar.
+Meaning.
 ```
 Instead of representing Dog as  542
 we represent it as vector 
@@ -37,9 +36,7 @@ we represent it as vector
 This list is called an embedding.
 ```
 
-
-
-# Cosine Similarity
+## Cosine Similarity
 
 Instead of Euclidean distance LLMs usually use  Cosine Similarity.
 
@@ -51,7 +48,7 @@ Two vectors pointing in nearly the same direction represent similar meanings, ev
 
 For vectors **A** and **B**:
 
-cosine similarity=A⋅B∥A∥∥B∥\text{cosine similarity} = \frac{A \cdot B}{\|A\| \|B\|}cosine similarity=∥A∥∥B∥A⋅B​
+cosine similarity=A⋅B∥A∥∥B∥\text{cosine similarity} = \frac{A \cdot B}{\|A\| \|B\|}cosine similarity=∥A∥∥B∥A⋅B​
 
 The result ranges from **-1 to 1**:
 
@@ -68,8 +65,7 @@ Cat -> [2, 4]
 
 The second vector is just twice the first, so their cosine similarity is **1.0**—they're treated as semantically identical despite different magnitudes.
 
-
-# How Embeddings Are Learned
+## How Embeddings Are Learned
 
 Initially, embeddings are random.
 
