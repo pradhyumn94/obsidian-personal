@@ -29,7 +29,6 @@ query {
 }
 ```
 
-
 ## 2. Fields and Arguments
 
 In REST, to look up a specific resource, you dynamically alter the URL endpoint (e.g., `/api/users/42`). In GraphQL, everything goes to the same endpoint, so you pass arguments directly inside the query fields.
@@ -159,15 +158,11 @@ query GetUserById($userId: ID!) {
 Data in GraphQL is naturally modeled as a graph (a network of interconnected data points).
 
 - **Nodes (Data Objects):** Represent individual data records (e.g., a specific `User`, a specific `Post`).
-    
 - **Edges (Relationships):** Represent the links connecting these records (e.g., an edge representing "authorship" between a User and a Post).
-    
 
 ### Connection Pattern (Advanced Pagination)
 
 In enterprise scale schemas, edges often encapsulate metadata about the connection itself (like a cursor position for pagination):
-
-GraphQL
 
 ```graphql
 query {

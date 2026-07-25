@@ -28,7 +28,7 @@ for (const [section, items] of Object.entries(topics)) {
     if (found) totalDone++;
     return [found ? "✅" : "⬜", topic];
   });
-  dv.table(["", "Topic"], rows);
+  dv.table(["Done", "Topic"], rows);
 }
 dv.paragraph(`**Progress: ${totalDone}/${totalTopics}**`);
 ```
