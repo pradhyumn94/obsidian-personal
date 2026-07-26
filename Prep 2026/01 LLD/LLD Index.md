@@ -12,7 +12,7 @@ Progress tracker. Check a box once its note is written in this folder (same name
 - [ ] [[Circuit Breaker]]
 
 ## Systems & Machines
-- [ ] [[Parking Lot]]
+- [x] [[Parking Lot]] ✅ 2026-07-26
 - [ ] [[Elevator System]]
 - [ ] [[Vending Machine]]
 - [ ] [[ATM Machine]]
