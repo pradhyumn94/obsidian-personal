@@ -5,9 +5,9 @@
 | 13-19 July  | Arrays, Strings, Hashing | Read: scalability basics | OOP + SOLID refresh | Networking fundamentals | LLM basics, tokens/embeddings | —    |
 
 ## Phase 1 — Foundations (Week 2)
-| Dates | DSA | HLD | LLD | Backend | AI | Mock |
-| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 20-26 July | Two Pointers, Sliding Window | URL Shortener | Design a Parking Lot | Close out Networking 101 (carryover) | Prompting, context windows | — |
+| Dates      | DSA                          | HLD           | LLD                  | Backend                              | AI                         | Mock |
+| ---------- | ---------------------------- | ------------- | -------------------- | ------------------------------------ | -------------------------- | ---- |
+| 20-26 July | Two Pointers, Sliding Window | URL Shortener | Design a Parking Lot | Close out Networking 101 (carryover) | Prompting, context windows | —    |
 
 ## Phase 2 — Core Depth (Weeks 3-4)
 | Dates | DSA | HLD | LLD | Backend | AI | Mock |
