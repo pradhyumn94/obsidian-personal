@@ -10,10 +10,10 @@
 | 20-26 July | Two Pointers, Sliding Window | URL Shortener | Design a Parking Lot | Close out Networking 101 (carryover) | Prompting, context windows | —    |
 
 ## Phase 2 — Core Depth (Weeks 3-4)
-| Dates | DSA | HLD | LLD | Backend | AI | Mock |
-|---|---|---|---|---|---|---|
-| 27 July - 02 August | Stack, Queue, Linked List + Trees, BST | Rate Limiter + Pastebin | Design a Library System + Design an Elevator System | Concurrency fundamentals + Databases: SQL vs NoSQL | RAG basics + Vector databases | Self mock: 1 DSA + 1 HLD |
-| 03-09 August | Heaps, Priority Queue + Graphs: BFS/DFS | Design Twitter feed + Design WhatsApp | Design a Vending Machine + Design a Rate Limiter (LLD) | Redis fundamentals + Kafka fundamentals | Agentic systems basics + Tool use / function calling | — |
+| Dates               | DSA                                     | HLD                                   | LLD                                                    | Backend                                            | AI                                                   | Mock                     |
+| ------------------- | --------------------------------------- | ------------------------------------- | ------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------- | ------------------------ |
+| 27 July - 02 August | Stack, Queue, Linked List + Trees, BST  | Rate Limiter + Pastebin               | Design a Library System + Design an Elevator System    | Concurrency fundamentals + Databases: SQL vs NoSQL | RAG basics + Vector databases                        | Self mock: 1 DSA + 1 HLD |
+| 03-09 August        | Heaps, Priority Queue + Graphs: BFS/DFS | Design Twitter feed + Design WhatsApp | Design a Vending Machine + Design a Rate Limiter (LLD) | Redis fundamentals + Kafka fundamentals            | Agentic systems basics + Tool use / function calling | —                        |
 
 ## Phase 3 — Distributed Systems & AI Platform (Weeks 5-8)
 | Dates | DSA | HLD | LLD | Backend | AI | Mock |
