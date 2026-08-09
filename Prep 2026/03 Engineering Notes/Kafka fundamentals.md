@@ -15,7 +15,7 @@ Motivation:
 	Solution: Topics
 
 
-Terminilogy:
+Terminlogy:
 	**Brokers** : The  server(physical/virtual) that hold the queue
 	**Partition**: The "queue".  An ordered immutable sequence of messages that we append to like log file. Each broker can have multiple partitions.
 	**Topics** : Logical group of partitions. You publish to and consume from Topics in Kafka
