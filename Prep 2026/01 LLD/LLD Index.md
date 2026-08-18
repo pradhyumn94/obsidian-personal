@@ -4,7 +4,7 @@ Progress tracker. Check a box once its note is written in this folder (same name
 
 ## Infrastructure Components
 - [ ] [[LRU Cache]]
-- [ ] [[Prep 2026/01 LLD/Rate Limiter|Rate Limiter]]
+- [x] [[Prep 2026/01 LLD/Rate Limiter|Rate Limiter]] ✅ 2026-08-18
 - [ ] [[Task Scheduler]]
 - [ ] [[Logging Framework]]
 - [ ] [[Notification System]]
@@ -13,7 +13,7 @@ Progress tracker. Check a box once its note is written in this folder (same name
 
 ## Systems & Machines
 - [x] [[Parking Lot]] ✅ 2026-07-26
-- [ ] [[Elevator System]]
+- [x] [[Elevator System]] ✅ 2026-08-18
 - [ ] [[Vending Machine]]
 - [ ] [[ATM Machine]]
 - [ ] [[Library Management System]]
