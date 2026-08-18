@@ -59,3 +59,8 @@ t = q.get()   # Blocks if queue is empty
 - [Atomic variables](https://www.hellointerview.com/learn/low-level-design/concurrency/correctness#atomic-variables) work for single variables but fail for multi-field invariants
 - [Thread confinement](https://www.hellointerview.com/learn/low-level-design/concurrency/correctness#thread-confinement) eliminates concurrency entirely for related data
 	![[Screenshot 2026-08-17 at 11.56.25 PM.png]]
+
+
+### Co-ordination
+- Shared-state co-ordination
+- Message passing co-ordination![[Screenshot 2026-08-18 at 6.28.12 AM.png]]
