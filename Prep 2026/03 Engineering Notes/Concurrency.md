@@ -64,3 +64,6 @@ t = q.get()   # Blocks if queue is empty
 ### Co-ordination
 - Shared-state co-ordination
 - Message passing co-ordination![[Screenshot 2026-08-18 at 6.28.12 AM.png]]
+### Scarcity
+- Semaphores
+- Resource pooling(with Blocking queue)![[Screenshot 2026-08-18 at 6.58.08 AM.png]]
