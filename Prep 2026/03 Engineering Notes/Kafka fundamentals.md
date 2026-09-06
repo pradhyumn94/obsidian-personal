@@ -1,5 +1,7 @@
 
-! [[Kafka]] 
+![[Kafka]] 
+
+See also: [[Redis]] (Pub/Sub and streams cover similar ground at lower throughput)
 
 Motivation:
 	Problem 1 : Too many events on the queue

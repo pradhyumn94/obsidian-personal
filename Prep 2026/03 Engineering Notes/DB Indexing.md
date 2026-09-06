@@ -1,5 +1,7 @@
 ![[Excalidraw/DB Indexing|DB Indexing]]
 
+See also: [[Scaling Reads]]
+
 Read up on
 - [ ] BTrees in detail
 - [ ] Red black trees

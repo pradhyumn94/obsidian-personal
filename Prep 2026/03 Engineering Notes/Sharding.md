@@ -1,5 +1,7 @@
 ![[Excalidraw/Sharding|Sharding]]
 
+See also: [[Scaling Reads]], [[Redis]] (Redis Cluster uses hash-based sharding)
+
 ### Partitioning
 - splitting a large table into smaller pieces inside a single database instance
 - **Horizontal partitioning**: Split rows across partitions.

@@ -20,7 +20,7 @@ Even a well-indexed DB struggles past ~50K-100K reads/sec depending on query pat
 
 ## 3. Caching (application/CDN)
 See [[Caching]] for strategies, cache stampede, and invalidation in depth.
-1. Application cache
+1. Application cache — commonly [[Redis]]
 2. CDN and edge cache
 
 ### Common deep dives

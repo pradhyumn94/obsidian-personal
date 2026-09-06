@@ -1,3 +1,5 @@
+See also: [[Scaling Reads]], [[Redis]]
+
 ## Strategies
 
 ![[Caching strategies]]

@@ -23,3 +23,5 @@ In distributed systems, **Partition Tolerance** is a given — you actually only
 
 ### Takeaway
 Real-world systems frequently need both availability and consistency — just for different features.
+
+See also: [[Redis]]

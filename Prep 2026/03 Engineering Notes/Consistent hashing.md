@@ -1,6 +1,8 @@
 
 ![[Consistent Hashing.excalidraw]]
 
+See also: [[Redis]]
+
 
 
 ### Addressing Hot Spots
