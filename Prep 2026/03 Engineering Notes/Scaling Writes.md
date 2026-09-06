@@ -16,3 +16,8 @@ See [[Sharding]] for shard key selection, hot-spot handling, and cross-shard tra
 	- Consistent hashing, virtual nodes, and slot assignment schemes — see [[Consistent hashing]]
 2. **Vertical partitioning** — split columns
 	- Separate data by access pattern and scaling requirements instead of cramming everything into one table
+
+## 3. Queues/ Load shedding
+
+
+## 4. Batching/Aggregation
