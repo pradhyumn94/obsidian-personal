@@ -1,6 +1,6 @@
 ![[Excalidraw/DB Indexing|DB Indexing]]
 
-See also: [[Scaling Reads]]
+See also: [[Scaling Reads]], [[Scaling Writes]]
 
 Read up on
 - [ ] BTrees in detail

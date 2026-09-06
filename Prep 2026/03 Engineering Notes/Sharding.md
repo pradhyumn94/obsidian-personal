@@ -1,6 +1,6 @@
 ![[Excalidraw/Sharding|Sharding]]
 
-See also: [[Scaling Reads]], [[Redis]] (Redis Cluster uses hash-based sharding)
+See also: [[Scaling Reads]], [[Scaling Writes]], [[Redis]] (Redis Cluster uses hash-based sharding)
 
 ### Partitioning
 - splitting a large table into smaller pieces inside a single database instance

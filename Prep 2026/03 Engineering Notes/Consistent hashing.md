@@ -1,7 +1,7 @@
 
 ![[Consistent Hashing.excalidraw]]
 
-See also: [[Redis]]
+See also: [[Redis]], [[Scaling Writes]]
 
 
 
