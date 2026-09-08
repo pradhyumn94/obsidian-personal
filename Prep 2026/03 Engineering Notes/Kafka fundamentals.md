@@ -1,7 +1,7 @@
 
 ![[Kafka]] 
 
-See also: [[Redis]] (Pub/Sub and streams cover similar ground at lower throughput)
+See also: [[Redis]] (Pub/Sub and streams cover similar ground at lower throughput), [[PostgreSQL]] (write offloading via queue)
 
 Motivation:
 	Problem 1 : Too many events on the queue

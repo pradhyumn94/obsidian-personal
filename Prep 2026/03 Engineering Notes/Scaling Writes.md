@@ -1,4 +1,4 @@
-Companion to [[Scaling Reads]] — write-heavy systems trade off differently: fewer indexes, different storage engines, and sharding by write pattern rather than read pattern.
+Companion to [[Scaling Reads]] — write-heavy systems trade off differently: fewer indexes, different storage engines, and sharding by write pattern rather than read pattern. See [[PostgreSQL]] for how these strategies apply concretely to a single-primary relational DB.
 
 ## 1. Storage engine and DB choice
 - Cassandra-style DBs favor write throughput at the cost of read performance

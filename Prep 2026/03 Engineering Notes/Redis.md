@@ -27,3 +27,4 @@ In-memory key-value store used for [[Caching|caching]], session storage, real-ti
 - [[Scaling Reads]] — where Redis fits as the application cache layer
 - [[Consistent hashing]] — how Redis Cluster distributes keys and handles hot spots
 - [[CAP Theorem]] — Redis defaults to availability over strong consistency across replicas
+- [[PostgreSQL]] — Postgres for ACID/relational data, Redis for pure key-value or real-time counters

@@ -1,4 +1,4 @@
-Even a well-indexed DB struggles past ~50K-100K reads/sec depending on query pattern — see [[Infra numbers to know]] for the broader per-component thresholds. Companion note: [[Scaling Writes]].
+Even a well-indexed DB struggles past ~50K-100K reads/sec depending on query pattern — see [[Infra numbers to know]] for the broader per-component thresholds. Companion note: [[Scaling Writes]]. See [[PostgreSQL]] for how these strategies apply concretely.
 
 ## 1. Optimize reads within your DB
 1. [[DB Indexing|Indexing]]
