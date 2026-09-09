@@ -202,15 +202,11 @@ This prevents conflicting histories / split-brain.
 |Coordination|Event streaming|
 
 ### Modern ecosystem
-
 - **Kafka:** historically used ZooKeeper → modern Kafka uses **KRaft**
-    
 - **Kubernetes:** uses **etcd**
-    
-
 ---
 
-## 🎯 Core Mental Model
+## Core Mental Model
 
 ```text
 ZooKeeper
