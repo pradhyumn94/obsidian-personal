@@ -24,4 +24,4 @@ In distributed systems, **Partition Tolerance** is a given — you actually only
 ### Takeaway
 Real-world systems frequently need both availability and consistency — just for different features.
 
-See also: [[Redis]], [[PostgreSQL]], [[Blob Storage]] (DB-vs-object-storage sync is an eventual consistency problem)
+See also: [[Redis]], [[PostgreSQL]], [[Blob Storage]] (DB-vs-object-storage sync is an eventual consistency problem), [[Handling Contention]] (SERIALIZABLE and distributed locks trade availability for consistency)

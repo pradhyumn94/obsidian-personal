@@ -38,7 +38,7 @@ See [[Scaling Writes]] for the general playbook (batching, load shedding, hierar
 - **High availability**: replica promotion on primary failure — usually handled by managed services (RDS, Cloud SQL); know that it's possible, not the manual mechanics
 
 ## Consistency
-ACID compliant, but ACID alone doesn't solve concurrency — you still need to choose a mechanism. See [[CAP Theorem]] for how ACID-consistency differs from CAP-consistency.
+ACID compliant, but ACID alone doesn't solve concurrency — you still need to choose a mechanism. See [[CAP Theorem]] for how ACID-consistency differs from CAP-consistency. See [[Handling Contention]] for the full decision tree (conditional writes → pessimistic locking → OCC → serializable isolation → distributed locks).
 
 - **Row-level locking** (`SELECT ... FOR UPDATE`) — locks specific rows; use when you know exactly which rows need atomic read-then-write (e.g. auction bid check-and-update)
 - **Serializable isolation** — makes transactions behave as fully sequential; simpler to reason about but requires retry logic on conflict. Prefer when the transaction touches too much to reason about explicit locks

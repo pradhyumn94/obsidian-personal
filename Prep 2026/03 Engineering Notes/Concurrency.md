@@ -67,3 +67,6 @@ t = q.get()   # Blocks if queue is empty
 ### Scarcity
 - Semaphores
 - Resource pooling(with Blocking queue)![[Screenshot 2026-08-18 at 6.58.08 AM.png]]
+
+### Related
+- [[Handling Contention]] — same check-then-act/read-modify-write correctness problem, at the distributed/DB level instead of single-process
