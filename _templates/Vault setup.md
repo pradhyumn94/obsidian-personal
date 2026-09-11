@@ -3,7 +3,7 @@
 ## New machine
 
 1. Clone this repo and open the folder as an Obsidian vault.
-2. **Settings → Community plugins**: enable, then match [`.obsidian/community-plugins.json`](../.obsidian/community-plugins.json) — currently: Templater, Tasks, Obsidian Git, Dataview, Omnisearch, Settings Search, Local REST API, Linter, Excalidraw, Kanban, Terminal.
+2. **Settings → Community plugins**: enable, then match [`.obsidian/community-plugins.json`](../.obsidian/community-plugins.json) — currently: Templater, Tasks, Obsidian Git, Dataview, Omnisearch, Settings Search, Local REST API, Linter, Excalidraw, Terminal.
 
 ## How notes get created
 
