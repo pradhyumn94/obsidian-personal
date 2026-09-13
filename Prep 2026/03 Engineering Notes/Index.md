@@ -13,6 +13,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 - [x] [[Handling Contention]]
 - [x] [[Scaling Reads]]
 - [x] [[Scaling Writes]]
+- [x] [[CQRS and Event Sourcing]]
 
 ## Databases & Storage
 - [x] [[DB Indexing]]
