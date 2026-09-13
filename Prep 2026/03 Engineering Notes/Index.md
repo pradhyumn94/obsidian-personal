@@ -2,6 +2,8 @@
 
 Progress tracker, grouped by domain. Check a box once the note exists and has real content (not just a stub). Unlike HLD/LLD Index files, everything here should already be checked most of the time — these are reference notes, not problems queued up to attempt.
 
+See [[Revision Plan]] for the spaced-repetition schedule over these notes.
+
 ## Distributed Systems
 - [x] [[CAP Theorem]]
 - [x] [[Consistent hashing]]
