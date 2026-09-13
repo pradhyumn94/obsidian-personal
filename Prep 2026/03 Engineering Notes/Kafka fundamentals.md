@@ -1,5 +1,4 @@
 
-![[Kafka]] 
 
 See also: [[Redis]] (Pub/Sub and streams cover similar ground at lower throughput), [[PostgreSQL]] (write offloading via queue)
 
