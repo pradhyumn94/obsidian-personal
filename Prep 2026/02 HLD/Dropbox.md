@@ -2,7 +2,7 @@
 
 ### Design a File Storage Service Like Dropbox Guided Practice - September 13, 2026
 
-! [[Dropbox.excalidraw]] 
+![[Excalidraw/Dropbox|Dropbox]]
 #### Key Takeaways
 
 **Requirements**
