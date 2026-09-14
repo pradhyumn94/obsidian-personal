@@ -28,7 +28,7 @@
 - [ ] [[Blob Storage]]
 - [ ] [[Proximity Search]]
 - [ ] [[Long-running Tasks]]
-- [ ] [[Multi-step Processes]]
+- [x] [[Multi-step Processes]] ✅ 2026-09-14
 - [ ] [[Real-time updates]]
 - [ ] [[LLM basics, tokens & embeddings]]
 - [ ] [[Infra numbers to know]]

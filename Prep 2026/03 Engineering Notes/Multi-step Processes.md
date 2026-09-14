@@ -54,8 +54,8 @@ flowchart LR
 **Durable execution engines** (e.g. Temporal): workflow written as code.
 - **Workflow** = deterministic orchestration logic (no side effects).
 - **Activity** = actual side-effecting work (must be idempotent — retried on ambiguous failure).
-- Recovery = replay: history DB stores each activity's result; replay returns recorded results instead of re-running, so execution resumes exactly where it stopped.
-- **Signals** let a workflow wait for external events (approval, webhook) without holding a thread.
+- **Recovery** = replay: history DB stores each activity's result; replay returns recorded results instead of re-running, so execution resumes exactly where it stopped.
+- **Signals** = let a workflow wait for external events (approval, webhook) without holding a thread.
 
 ```mermaid
 flowchart LR
