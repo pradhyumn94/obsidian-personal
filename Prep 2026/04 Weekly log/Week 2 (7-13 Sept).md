@@ -4,7 +4,6 @@
 - Wrote first two HLD problem write-ups: [[URL Shortener]] and [[Dropbox]] (with an accompanying Excalidraw diagram)
 - Added [[Proximity Search]] as both an Engineering Note and an HLD problem
 - Set up the [[Revision Plan]] with a tiered spaced-repetition schedule (Pass 1/2/3 across the coming weeks)
-- Refreshed [[Home]] and the Engineering Notes README/index structure
 
 ## Wins
 - Engineering Notes section is essentially complete — every planned topic now has real content, not just a stub
