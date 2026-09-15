@@ -9,9 +9,9 @@
 ## Schedule
 
 ### Week of 14-20 Sept — Pass 1 (all tiers, first touch)
-- [ ] [[CAP Theorem]]
-- [ ] [[Consistent hashing]]
-- [ ] [[Sharding]]
+- [x] [[CAP Theorem]] ✅ 2026-09-15
+- [x] [[Consistent hashing]] ✅ 2026-09-15
+- [x] [[Sharding]] ✅ 2026-09-15
 - [ ] [[Caching]]
 - [ ] [[Redis]]
 - [ ] [[DB Indexing]]
