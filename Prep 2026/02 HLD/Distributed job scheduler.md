@@ -1,4 +1,5 @@
-# Design a Distributed Job Scheduler (like Airflow)
+
+![[Distributed job scheduler.excalidraw]]
 
 ## Requirements
 - **Availability > consistency** — missing a job execution is worse than briefly stale metadata.
