@@ -1,7 +1,6 @@
-# Cassandra — Concise Notes
 
 ## What it is
-Apache Cassandra is an open-source, distributed, wide-column NoSQL database (Dynamo + Bigtable heritage). Built at Facebook for inbox search; used by Discord, Netflix, Apple, Bloomberg. Optimized for horizontal scale, high write throughput, and availability over strict consistency.
+Apache Cassandra is an open-source, distributed, wide-column NoSQL database (Dynamo + Bigtable heritage). Optimized for horizontal scale, high write throughput, and availability over strict consistency.
 
 ## Data Model
 - **Keyspace** → database-level container; defines replication strategy.
