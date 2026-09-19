@@ -1,15 +1,11 @@
 ---
-Status: Not Started
-Date:
-Difficulty:
+status: Not Started
+category:
+date:
+difficulty:
 ---
 
 # {{Problem Name}}
-
-## Status
-Not Started / In Progress / Done
-
-## Date
 
 ## Difficulty
 Easy / Medium / Hard

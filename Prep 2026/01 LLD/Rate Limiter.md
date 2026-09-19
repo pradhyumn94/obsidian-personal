@@ -1,3 +1,9 @@
+---
+status: Done
+category: Infrastructure Components
+date: 2026-08-18
+---
+
 # Rate Limiter - LLD Practice Notes
 
 

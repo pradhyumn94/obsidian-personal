@@ -1,3 +1,9 @@
+---
+status: Done
+category: Systems & Machines
+date: 2026-07-26
+---
+
 # Parking Lot - LLD Practice Notes
 
 ### Parking Lot LLD Practice - July 26, 2026

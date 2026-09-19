@@ -1,6 +1,9 @@
-### Design a News Aggregator like Google News
+---
+status: Done
+category: Social
+date: 2026-09-19
+---
 
-<!-- EXCALIDRAW_PRACTICE practiceId="cmu85pmbk05hk08adq6c2wewv" -->
 
 ![[Excalidraw/News aggregator.excalidraw]]
 

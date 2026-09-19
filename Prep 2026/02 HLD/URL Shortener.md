@@ -1,3 +1,9 @@
+---
+status: Done
+category: Storage
+date: 2026-09-12
+---
+
 ![[Pasted image 20260912144320.png]]
 
 ## Deep Dive / Senior-Staff Follow-ups

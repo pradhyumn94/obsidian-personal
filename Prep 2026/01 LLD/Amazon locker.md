@@ -1,3 +1,9 @@
+---
+status: Done
+category: Systems & Machines
+date: 2026-08-23
+---
+
 # Amazon Locker - LLD Practice Notes
 
 ### Amazon Locker LLD Practice - August 23, 2026

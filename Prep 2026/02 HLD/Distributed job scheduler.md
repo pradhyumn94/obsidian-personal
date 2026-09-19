@@ -1,3 +1,8 @@
+---
+status: Done
+category: Scheduling
+date: 2026-09-18
+---
 
 ![[Distributed job scheduler.excalidraw]]
 
