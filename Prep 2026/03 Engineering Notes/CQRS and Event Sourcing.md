@@ -12,7 +12,7 @@
 
 ### Why they're usually paired
 - CQRS needs some way to keep the read model in sync with the write model — event sourcing provides exactly that stream of events to project from.
-- You can do CQRS without event sourcing (sync via CDC or plain domain events), and event sourcing without CQRS (single model, just event-backed) — but combined, the write side appends events and the read side is a set of projections subscribed to that stream.
+- You can do CQRS without event sourcing (sync via [[Change Data Capture (CDC)|CDC]] or plain domain events), and event sourcing without CQRS (single model, just event-backed) — but combined, the write side appends events and the read side is a set of projections subscribed to that stream.
 
 ### Advantages
 - Full audit trail for free — every state change is recorded, not just the latest value.

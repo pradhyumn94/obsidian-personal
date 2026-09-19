@@ -5,6 +5,7 @@ Progress tracker, grouped by domain. Check a box once the note exists and has re
 See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 
 ## Distributed Systems
+- [x] [[Change Data Capture (CDC)]]
 - [x] [[CAP Theorem]]
 - [x] [[Consistent hashing]]
 - [x] [[Sharding]]
