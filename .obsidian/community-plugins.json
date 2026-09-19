@@ -8,5 +8,11 @@
   "obsidian-local-rest-api",
   "obsidian-linter",
   "obsidian-excalidraw-plugin",
-  "terminal"
+  "terminal",
+  "obsidian-style-settings",
+  "obsidian-icon-folder",
+  "obsidian-banners",
+  "homepage",
+  "folder-notes",
+  "obsidian-spaced-repetition"
 ]
