@@ -28,6 +28,37 @@
 - Consensus protocol: **ZAB (ZooKeeper Atomic Broadcast)**.
 - **zxid** provides transaction ordering.
 
+### Reads vs Writes
+
+```text
+Read  → any server → in-memory copy   (fast, may be stale)
+Write → leader only → ZAB commit → quorum ack → durable
+
+Optimized for ~10:1 read:write
+Need freshest read? → call sync() before get → forces catch-up with leader
+```
+
+### ZAB internal leader election (vs app-level election)
+
+```text
+New ZK leader = highest zxid (most up-to-date history)
+                tie → highest server ID
+
+App-level election = lowest sequential znode wins
+→ opposite rule, don't confuse the two
+```
+
+### Storage / durability
+
+```text
+Write → transaction log (fsync, perf-critical, dedicated disk)
+      → periodic snapshot of in-memory state
+
+Restart → load latest snapshot → replay log → recovered state
+```
+
+> Avoid JVM heap swapping — writes are ordered, so one slow request stalls the whole queue.
+
 ---
 
 ## Znodes
@@ -204,6 +235,34 @@ This prevents conflicting histories / split-brain.
 ### Modern ecosystem
 - **Kafka:** historically used ZooKeeper → modern Kafka uses **KRaft**
 - **Kubernetes:** uses **etcd**
+- Still core to Apache ecosystem: HBase, Hadoop, SolrCloud, Storm, Pulsar; ClickHouse uses it for replication.
+
+### Alternatives
+
+```text
+etcd    → cloud-native, powers K8s, HTTP/gRPC, small high-read datasets
+Consul  → + service discovery, health checks, network automation
+Cloud   → AWS Parameter Store/CloudMap, Azure App Config, managed MSK ZooKeeper
+```
+
+### Limitations
+
+```text
+Hot spotting     → many watchers on one znode → notification storm
+Write cost       → every write: leader + quorum fsync → low write throughput
+Capacity         → znodes <1MB, full dataset must fit in memory
+Ops complexity   → "simple to use, complex to operate"
+```
+
+### When it shines in interviews
+
+```text
+Smart routing      → coordinator maps chat-rooms/streams → servers (colocate same-room users)
+Infra design       → broker registration, partition leader election, rebalancing,
+                      failure detection via ephemeral nodes (pre-KRaft Kafka)
+Hierarchical locks → nested lock trees (dir + files), deadlock-safe ordering
+                      → ZK > Redis for correctness-critical, long-lived locks
+```
 ---
 
 ## Core Mental Model
