@@ -19,6 +19,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 ## Databases & Storage
 - [x] [[DB Indexing]]
 - [x] [[PostgreSQL]]
+- [x] [[DynamoDB]]
 - [x] [[Blob Storage]]
 - [x] [[Proximity Search]]
 
@@ -35,6 +36,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 ## Networking & APIs
 - [x] [[Networking 101]]
 - [x] [[GraphQL Foundations]]
+- [x] [[API Gateway]]
 
 ## Concurrency
 - [x] [[Concurrency]]
