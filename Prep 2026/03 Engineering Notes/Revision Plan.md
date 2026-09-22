@@ -25,7 +25,7 @@
 - [ ] [[Handling Contention]]
 - [ ] [[Networking 101]]
 - [ ] [[GraphQL Foundations]]
-- [ ] [[Blob Storage]]
+- [x] [[Blob Storage]] ✅ 2026-09-22
 - [ ] [[Proximity Search]]
 - [ ] [[Long-running Tasks]]
 - [x] [[Multi-step Processes]] ✅ 2026-09-14
