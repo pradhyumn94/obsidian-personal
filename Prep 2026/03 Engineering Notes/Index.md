@@ -22,6 +22,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 - [x] [[DynamoDB]]
 - [x] [[Blob Storage]]
 - [x] [[Proximity Search]]
+- [x] [[Time-Series Databases]]
 
 ## Caching
 - [x] [[Caching]]
