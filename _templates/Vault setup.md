@@ -7,7 +7,7 @@
 
 ## How notes get created
 
-There's no daily-notes or auto-template automation wired up. Templates in this folder are copy-paste (see [`README.md`](README.md)):
+There's no daily-notes or auto-template automation wired up. Templates in this folder are copy-paste (see [`README.md`](_templates/README.md)):
 1. Open the relevant template file.
 2. Select all, copy.
 3. Create your new note in the right `Prep 2026/` subfolder, paste, then fill in the placeholders and delete them.

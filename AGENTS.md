@@ -44,20 +44,7 @@ This is an Obsidian personal prep vault, not a software repo. Treat it like a st
 - `Index.md` groups the concept notes by domain.
 - `Revision Plan.md` is the spaced-repetition checklist over these notes.
 
-### `04 Weekly log/`
-
-- One file per week, manually created.
-- Naming pattern: `Week N (date range).md`.
-- Use `_templates/Weekly Review Template.md`.
-- Standard sections:
-  - `Completed This Week`
-  - `Wins`
-  - `Weak Areas`
-  - `Topics to Revise`
-  - `Plan for Next Week`
-- Weekly logs are meant to keep `Prep 2026/Roadmap.md` honest; if the plan slips, update the roadmap/log rather than silently pretending it did not.
-
-### `05 Interview Notes/`
+### `04 Interview Notes/`
 
 - `Resume.md` — working resume content.
 - `Behavioral Stories.md` — reusable STAR-story bank.
