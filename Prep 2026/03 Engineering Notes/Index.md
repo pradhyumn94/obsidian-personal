@@ -23,6 +23,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 - [x] [[Blob Storage]]
 - [x] [[Proximity Search]]
 - [x] [[Time-Series Databases]]
+- [x] [[Elasticsearch]]
 
 ## Caching
 - [x] [[Caching]]
