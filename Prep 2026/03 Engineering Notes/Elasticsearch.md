@@ -1,5 +1,3 @@
-# Elasticsearch
-
 ## Summary
 Distributed search engine built as a coordination/orchestration layer on top of Apache Lucene. Handles search-and-retrieval problems (sorting, filtering, ranking, faceting) that go beyond what a Postgres full-text index can do at scale.
 
