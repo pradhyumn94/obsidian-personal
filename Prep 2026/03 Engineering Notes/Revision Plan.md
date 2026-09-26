@@ -43,7 +43,7 @@
 - [ ] [[Scaling Reads]]
 - [ ] [[Scaling Writes]]
 - [ ] [[Concurrency]]
-- [ ] [[Kafka fundamentals]]
+- [x] [[Kafka fundamentals]] ✅ 2026-09-26
 - [ ] [[PostgreSQL]]
 - [ ] [[Zookeeper]]
 - [ ] [[Leader Election, Quorum]]
