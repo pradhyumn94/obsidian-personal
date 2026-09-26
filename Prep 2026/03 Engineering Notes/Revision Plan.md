@@ -20,7 +20,7 @@
 - [ ] [[Concurrency]]
 - [ ] [[Kafka fundamentals]]
 - [ ] [[PostgreSQL]]
-- [ ] [[Zookeeper]]
+- [x] [[Zookeeper]] ✅ 2026-09-20
 - [ ] [[Leader Election, Quorum]]
 - [ ] [[Handling Contention]]
 - [ ] [[Networking 101]]
@@ -33,7 +33,7 @@
 - [ ] [[LLM basics, tokens & embeddings]]
 - [ ] [[Infra numbers to know]]
 
-### Week of 21-27 Sept — Pass 2 (Tier 1 + Tier 2 only)
+### Week of 21-27 Sept — Pass 2 (Tier 1 + Tier 2) + remaining Pass 1 items rolled forward
 - [ ] [[CAP Theorem]]
 - [ ] [[Consistent hashing]]
 - [ ] [[Sharding]]
@@ -50,6 +50,10 @@
 - [ ] [[Handling Contention]]
 - [ ] [[Networking 101]]
 - [ ] [[GraphQL Foundations]]
+- [ ] [[Proximity Search]] *(rolled forward from Pass 1)*
+- [ ] [[Long-running Tasks]] *(rolled forward from Pass 1)*
+- [ ] [[Real-time updates]] *(rolled forward from Pass 1)*
+- [ ] [[Infra numbers to know]] *(rolled forward from Pass 1)*
 
 ### Week of 28 Sept - 04 Oct — Pass 3 (Tier 1 only, day-before-loop refresh)
 - [ ] [[CAP Theorem]]
@@ -64,3 +68,5 @@
 
 ## Gaps Found
 - (log recurring blind spots here as you hit them, with date)
+- 2026-09-26: [[LLM basics, tokens & embeddings]] is marked done in `Index.md` but the note doesn't exist in the vault — needs to be written before it can be revised. Unchecked in Index.md pending creation.
+- 2026-09-26: Pass 1 (14-20 Sept) was only ~4/22 complete by its deadline; remaining items rolled forward into the Pass 2 week instead of a separate catch-up pass.

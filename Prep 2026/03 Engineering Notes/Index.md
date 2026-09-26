@@ -44,7 +44,7 @@ See [[Revision Plan]] for the spaced-repetition schedule over these notes.
 - [x] [[Concurrency]]
 
 ## AI / LLM
-- [x] [[LLM basics, tokens & embeddings]]
+- [ ] [[LLM basics, tokens & embeddings]] (note not yet created — see Revision Plan gaps)
 
 ## Infra & Reference Numbers
 - [x] [[Infra numbers to know]]
