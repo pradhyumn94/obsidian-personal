@@ -50,7 +50,7 @@
 - [ ] [[Handling Contention]]
 - [ ] [[Networking 101]]
 - [ ] [[GraphQL Foundations]]
-- [ ] [[Proximity Search]] *(rolled forward from Pass 1)*
+- [x] [[Proximity Search]] *(rolled forward from Pass 1)* ✅ 2026-09-28
 - [ ] [[Long-running Tasks]] *(rolled forward from Pass 1)*
 - [ ] [[Real-time updates]] *(rolled forward from Pass 1)*
 - [ ] [[Infra numbers to know]] *(rolled forward from Pass 1)*
