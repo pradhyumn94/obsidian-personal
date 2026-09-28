@@ -15,8 +15,8 @@
 - [ ] [[Caching]]
 - [ ] [[Redis]]
 - [ ] [[DB Indexing]]
-- [ ] [[Scaling Reads]]
-- [ ] [[Scaling Writes]]
+- [x] [[Scaling Reads]] ✅ 2026-09-28
+- [x] [[Scaling Writes]] ✅ 2026-09-28
 - [ ] [[Concurrency]]
 - [ ] [[Kafka fundamentals]]
 - [ ] [[PostgreSQL]]
@@ -40,8 +40,8 @@
 - [ ] [[Caching]]
 - [ ] [[Redis]]
 - [ ] [[DB Indexing]]
-- [ ] [[Scaling Reads]]
-- [ ] [[Scaling Writes]]
+- [x] [[Scaling Reads]] ✅ 2026-09-28
+- [x] [[Scaling Writes]] ✅ 2026-09-28
 - [ ] [[Concurrency]]
 - [x] [[Kafka fundamentals]] ✅ 2026-09-26
 - [ ] [[PostgreSQL]]
