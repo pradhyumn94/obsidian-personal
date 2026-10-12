@@ -38,8 +38,8 @@
 - [ ] [[Consistent hashing]]
 - [ ] [[Sharding]]
 - [ ] [[Caching]]
-- [ ] [[Redis]]
-- [ ] [[DB Indexing]]
+- [x] [[Redis]] ✅ 2026-10-12
+- [x] [[DB Indexing]] ✅ 2026-10-05
 - [x] [[Scaling Reads]] ✅ 2026-09-28
 - [x] [[Scaling Writes]] ✅ 2026-09-28
 - [ ] [[Concurrency]]
@@ -58,11 +58,11 @@
 ### Week of 28 Sept - 04 Oct — Pass 3 (Tier 1 only, day-before-loop refresh)
 - [ ] [[CAP Theorem]]
 - [ ] [[Consistent hashing]]
-- [ ] [[Sharding]]
+- [x] [[Sharding]] ✅ 2026-10-08
 - [ ] [[Caching]]
-- [ ] [[Redis]]
-- [ ] [[DB Indexing]]
-- [ ] [[Scaling Reads]]
+- [x] [[Redis]] ✅ 2026-10-12
+- [x] [[DB Indexing]] ✅ 2026-10-05
+- [x] [[Scaling Reads]] ✅ 2026-10-12
 - [ ] [[Scaling Writes]]
 - [ ] [[Concurrency]]
 
