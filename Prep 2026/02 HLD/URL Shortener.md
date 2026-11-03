@@ -6,6 +6,8 @@ date: 2026-09-12
 
 ![[Pasted image 20260912144320.png]]
 
+See also: [[Caching]] · [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] · [[DynamoDB]] · [[Leader Election, Quorum]] · [[Kafka fundamentals]] · [[Infra numbers to know]].
+
 ## Deep Dive / Senior-Staff Follow-ups
 
 ### 1. ID Generation (core of this problem)

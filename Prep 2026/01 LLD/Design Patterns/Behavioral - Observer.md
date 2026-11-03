@@ -1,4 +1,4 @@
-[[Prep 2026/01 LLD/Design Patterns/index|← Design Patterns]]
+[[Design Patterns Index|← Design Patterns]]
 
 Use when when changes in one object need to trigger updates in other objects.
 

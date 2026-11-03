@@ -9,12 +9,12 @@ Comes up in infra-style system design (monitoring/metrics platforms). Tests whet
 ## How it works
 Core building blocks (each reusable outside TSDB context):
 - **Append-only storage** — never update in place; sequential writes only. Turns random I/O (slow, ~100-200 ops/sec on spinning disk) into sequential I/O (100k+ ops/sec).
-- **LSM trees** — writes go to WAL + in-memory sorted memtable → flushed as immutable sorted **SSTable** on disk → background **compaction** merges SSTables. See [[DB Indexing]] for the general mechanism.
+- **LSM trees** — writes go to WAL + in-memory sorted memtable → flushed as immutable sorted **SSTable** on disk → background **compaction** merges SSTables. See [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]] for the general mechanism.
 - **Delta encoding + compression**:
   - Timestamps: delta-of-delta encoding (regular intervals → deltas of 0 → near-zero bits per timestamp).
   - Values: XOR-based compression between consecutive floats (similar values → mostly zero bits → run-length encoded). Gorilla paper: ~1.37 bytes/value vs 8 bytes raw.
 - **Time-based partitioning** — one partition per time window (day/week). Localizes writes (always write to "now" partition), speeds range reads (skip irrelevant partitions), makes retention trivial (drop old partition files instead of DELETE scans).
-- **Bloom filters** — per-SSTable, answer "definitely not here" with zero disk I/O; skip files that can't contain the key. ~10 bits/key, ~1% false positive rate. See [[DB Indexing]].
+- **Bloom filters** — per-SSTable, answer "definitely not here" with zero disk I/O; skip files that can't contain the key. ~10 bits/key, ~1% false positive rate. See [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]].
 - **Downsampling / rollups** — pre-aggregate (min/max/avg/count) older data at coarser resolution (e.g. 10s raw → 1min → 1hr), trading precision for storage + read speed on historical queries.
 - **Block-level metadata** — min/max timestamp (and value) per block enables pruning without reading the block.
 
@@ -58,8 +58,8 @@ flowchart LR
 - What's the cardinality problem and how do you avoid it in your data model (tags vs. fields)?
 
 ## Related Topics
-- [[DB Indexing]] — LSM trees, Bloom filters, B-trees
-- [[Sharding]] — time-based partitioning is a specialized sharding strategy
+- [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]] — LSM trees, Bloom filters, B-trees
+- [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] — time-based partitioning is a specialized sharding strategy
 - [[Scaling Writes]]
 - [[Kafka fundamentals]] — append-only log parallels
 

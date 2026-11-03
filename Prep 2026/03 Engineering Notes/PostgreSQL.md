@@ -1,7 +1,7 @@
 Default choice in system design interviews unless requirements demand otherwise. Start with Postgres, then justify deviating — not the reverse.
 
 ## Read performance
-See [[DB Indexing]] for index internals in depth.
+See [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]] for index internals in depth.
 - **B-tree** (default) — exact matches, range queries, `ORDER BY` when it matches index column order
 - **GIN** — full-text search (`tsvector`/`to_tsquery`) and JSONB containment queries (`@>`). Often removes the need for a separate Elasticsearch or Mongo — reach for those only when you need fuzzy matching, faceted search, or distributed search at very large scale
 - **GiST** (via PostGIS) — geospatial queries (`ST_DWithin`, bounding-box lookups). Uber's ride-matching started on this before moving to custom infra
@@ -29,7 +29,7 @@ See [[Scaling Writes]] for the general playbook (batching, load shedding, hierar
 2. **Batching** — collect writes into one transaction; risk is losing the whole batch on crash
 3. **Write offloading** — route non-critical writes (analytics, "last seen") through a queue ([[Kafka fundamentals|Kafka]]) to async workers instead of the primary
 4. **Table partitioning** (`PARTITION BY RANGE`) — e.g. by month; confines index updates and scans to the relevant partition, lets you tier storage (hot partitions on NVMe, cold on cheap disk)
-5. **Sharding** — Postgres has no built-in sharding (unlike DynamoDB); shard key should match your dominant query pattern to avoid cross-shard scatter-gather. Use Citus for managed sharding. See [[Sharding]]
+5. **Sharding** — Postgres has no built-in sharding (unlike DynamoDB); shard key should match your dominant query pattern to avoid cross-shard scatter-gather. Use Citus for managed sharding. See [[Prep 2026/03 Engineering Notes/Sharding|Sharding]]
 
 ## Replication
 - **Asynchronous** (default) — primary confirms write immediately, replicates in background; fast, but a crash can lose the unreplicated window

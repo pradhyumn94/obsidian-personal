@@ -6,6 +6,8 @@ date: 2026-07-26
 
 # Parking Lot - LLD Practice Notes
 
+See also: [[OOP Concepts]] · [[Design Principles]] · [[Behavioral - Strategy|Strategy]] · [[Handling Contention]].
+
 ### Parking Lot LLD Practice - July 26, 2026
 
 #### Key Takeaways

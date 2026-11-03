@@ -1,3 +1,4 @@
+See also: [[Zookeeper]] · [[CAP Theorem]] · [[Handling Contention]] · [[Cassandra]].
 
 ## 1. The Core Problem & Leader Election
 

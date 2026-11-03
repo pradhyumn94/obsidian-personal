@@ -6,6 +6,8 @@ date: 2026-08-18
 
 # Rate Limiter - LLD Practice Notes
 
+See also: [[Behavioral - Strategy|Strategy]] · [[Creational - Factory Method|Factory Method]] · [[API Gateway]] · [[Redis]] · [[Concurrency]] · [[Distributed Rate Limiter|Distributed Rate Limiter (HLD)]].
+
 
 |Algorithm|Per-Key State|Tradeoff|
 |---|---|---|

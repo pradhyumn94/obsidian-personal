@@ -4,7 +4,7 @@ In-memory key-value store used for [[Caching|caching]], session storage, real-ti
 - High performance: sub-ms latency, 100k+ writes/sec
 - Versatile data structures: strings, hashes, sets, sorted sets, streams, geospatial
 - Simple commands, easy to reason about
-- Scales horizontally via clustering ([[Sharding]]) and replication
+- Scales horizontally via clustering ([[Prep 2026/03 Engineering Notes/Sharding|Sharding]]) and replication
 - Durability options (RDB, AOF) trade off persistence vs performance
 
 ### Cons

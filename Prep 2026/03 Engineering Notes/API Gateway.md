@@ -33,7 +33,7 @@ Single entry point that sits in front of backend services and routes client requ
 - Bigger risk in interviews is over-explaining the gateway at the expense of the actual system design.
 
 ## Related Topics
-- [[Networking 101]]
+- [[Prep 2026/03 Engineering Notes/Networking 101|Networking 101]]
 - [[GraphQL Foundations]]
 - [[Caching]]
 - [[Redis]]

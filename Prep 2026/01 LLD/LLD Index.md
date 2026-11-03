@@ -1,6 +1,19 @@
 # LLD Index
 
-Auto-tracked via Dataview — status/category/date come from each note's frontmatter, so this list can't drift out of sync. Add new problem names to the `problems` object below when planning ahead; once you write the note (with `status: Done` in its frontmatter), it checks itself off automatically.
+## Folder Guide
+
+- One note per object-oriented / class-design problem. Copy [[_templates/LLD Template|LLD Template]] and name it after the problem in plain English.
+- Sketch classes and relationships before coding; explain which design patterns you chose and why.
+- Link reusable concepts to Engineering Notes rather than duplicating them.
+
+## Design References
+- [[Prep 2026/01 LLD/Delivery Framework|Delivery framework]]
+- [[OOP Concepts]] · [[Design Principles]] · [[Design Patterns Index|Design Patterns]]
+- [[HLD Index]] · [[Engineering Notes Index|Engineering Notes]] · [[Study Log]]
+
+## Practice Tracker
+
+Tracked via Dataview from the LLD notes below. Add new problem names to the `problems` object when planning ahead; `status: Done` in a note's frontmatter checks it off. An unchecked item may be planned or an existing note without Done status. Dates come from frontmatter; drawings stay embedded in the problem notes.
 
 ```dataviewjs
 const problems = {
@@ -14,7 +27,7 @@ const problems = {
 	"AI Systems": ["LLM Prompt Pipeline", "Agent Tool Router", "Conversation Memory Store"],
 };
 
-const allPages = dv.pages('"Prep 2026/01 LLD" or "Excalidraw"').array();
+const allPages = dv.pages('"Prep 2026/01 LLD"').array();
 
 let done = 0, total = 0;
 for (const [category, items] of Object.entries(problems)) {

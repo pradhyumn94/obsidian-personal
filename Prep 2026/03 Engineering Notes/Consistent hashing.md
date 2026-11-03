@@ -1,5 +1,5 @@
 
-![[Consistent Hashing.excalidraw]]
+![[Consistent Hashing.excalidraw.md]]
 
 See also: [[Redis]], [[Scaling Writes]]
 

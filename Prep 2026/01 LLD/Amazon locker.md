@@ -6,6 +6,8 @@ date: 2026-08-23
 
 # Amazon Locker - LLD Practice Notes
 
+See also: [[OOP Concepts]] · [[Design Principles]] · [[Behavioral - State machine|State Machine]] · [[Handling Contention]].
+
 ### Amazon Locker LLD Practice - August 23, 2026
 
 #### Key Takeaways

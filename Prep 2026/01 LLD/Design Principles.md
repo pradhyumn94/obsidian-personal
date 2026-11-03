@@ -1,3 +1,5 @@
+See also: [[OOP Concepts]] · [[Design Patterns Index|Design Patterns]] · [[Prep 2026/01 LLD/Delivery Framework|Delivery framework]].
+
 1. General software design principles
 	1. KISS
 	2. DRY

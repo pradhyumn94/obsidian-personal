@@ -5,7 +5,7 @@ date: 2026-09-19
 ---
 
 
-![[Excalidraw/News aggregator.excalidraw]]
+![[Excalidraw/News aggregator.excalidraw.md]]
 
 #### Requirements
 
@@ -32,7 +32,7 @@ date: 2026-09-19
 #### High Level Design
 * **Ingestion**: collection service polls publisher RSS feeds → parses raw XML into normalized fields (title, author, published date, region) → writes to DB
 * **Storage**: `articles` + `publishers` tables; media (thumbnails) stored in [[Blob Storage|S3]], DB holds only the S3 key/URL reference
-* **Regional scoping**: `region` lives on the article/publisher record so reads are a simple `WHERE region = ...` filter, not routing logic; ingestion + DB can be [[Sharding|sharded]] per region
+* **Regional scoping**: `region` lives on the article/publisher record so reads are a simple `WHERE region = ...` filter, not routing logic; ingestion + DB can be [[Prep 2026/03 Engineering Notes/Sharding|sharded]] per region
 * **Read path**: client → gateway (auth, routing) → feed read service → DB (or cache) → response, media served via CDN
 
 #### Deep Dives

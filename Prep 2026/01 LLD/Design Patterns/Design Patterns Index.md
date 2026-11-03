@@ -1,3 +1,7 @@
+# Design Patterns Index
+
+See also: [[LLD Index]] · [[OOP Concepts]] · [[Design Principles]] · [[Rate Limiter]].
+
 ## Creational Patterns
 
 - **[[Creational - Factory Method|Factory]]** → Use when callers shouldn't care which concrete class gets created.

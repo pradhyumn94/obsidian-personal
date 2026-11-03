@@ -2,6 +2,8 @@
 
 ![[Excalidraw/Local delivery service.excalidraw.md]]
 
+See also: [[Proximity Search]] · [[Handling Contention]] · [[PostgreSQL]] · [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] · [[Caching]].
+
 ## Requirements
 - **NFRs:** 100k items, 10k fulfillment centers, 1M orders/day; availability reads <100ms
 - **Consistency:** availability reads = eventual (ok, small stock lag acceptable while browsing); ordering = strong (prevents overselling a single physical item)

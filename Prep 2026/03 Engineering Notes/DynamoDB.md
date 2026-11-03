@@ -79,5 +79,5 @@ AWS's fully-managed, highly-scalable key-value/NoSQL database. "Fully-managed" =
 - [[Consistent hashing]]
 - [[Change Data Capture (CDC)]]
 - [[CAP Theorem]]
-- [[Sharding]]
-- [[DB Indexing]]
+- [[Prep 2026/03 Engineering Notes/Sharding|Sharding]]
+- [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]]

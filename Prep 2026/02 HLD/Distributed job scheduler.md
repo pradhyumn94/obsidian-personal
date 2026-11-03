@@ -4,7 +4,9 @@ category: Scheduling
 date: 2026-09-18
 ---
 
-![[Distributed job scheduler.excalidraw]]
+![[Distributed job scheduler.excalidraw.md]]
+
+See also: [[Long-running Tasks]] · [[Multi-step Processes]] · [[DynamoDB]] · [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] · [[Kafka fundamentals]].
 
 ## Requirements
 - **Availability > consistency** — missing a job execution is worse than briefly stale metadata.

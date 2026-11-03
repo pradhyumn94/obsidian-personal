@@ -1,4 +1,4 @@
-[[Prep 2026/01 LLD/Design Patterns/index|← Design Patterns]]
+[[Design Patterns Index|← Design Patterns]]
 
 Drawing a state diagram is one of the best ways to communicate a state machine design in an interview.
 
@@ -81,4 +81,3 @@ machine.dispense()        # "Dispensing product"
 
 
 ```
-

@@ -227,3 +227,5 @@ const { url } = await startStandaloneServer(server, {
 
 console.log(`🚀 Server ready at: ${url}`);
 ```
+
+See also: [[API design]] · [[API Gateway]] · [[Prep 2026/03 Engineering Notes/Networking 101|Networking 101]].

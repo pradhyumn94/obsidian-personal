@@ -1,7 +1,7 @@
 Even a well-indexed DB struggles past ~50K-100K reads/sec depending on query pattern — see [[Infra numbers to know]] for the broader per-component thresholds. Companion note: [[Scaling Writes]]. See [[PostgreSQL]] for how these strategies apply concretely. For large files rather than DB rows, see [[Blob Storage]] — CDN/edge caching is the same idea applied to bytes instead of query results.
 
 ## 1. Optimize reads within your DB
-1. [[DB Indexing|Indexing]]
+1. [[Prep 2026/03 Engineering Notes/DB Indexing|Indexing]]
 	- Avoid full table scans
 	- Read drops to O(log(n))
 	- Under-indexing is generally worse than over-indexing
@@ -14,7 +14,7 @@ Even a well-indexed DB struggles past ~50K-100K reads/sec depending on query pat
 
 ## 2. Scale your DB horizontally (replicas/sharding)
 1. Read replicas
-2. [[Sharding]]
+2. [[Prep 2026/03 Engineering Notes/Sharding|Sharding]]
 	- Functional sharding
 	- Each DB has a slice of the same data
 
@@ -25,7 +25,7 @@ See [[Caching]] for strategies, cache stampede, and invalidation in depth.
 
 ### Common deep dives
 1. What happens when your queries start taking longer as your dataset grows?
-	- Add indexes — see [[DB Indexing]]
+	- Add indexes — see [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]]
 2. How do you handle millions of concurrent reads for the same cached data?
 	- Hot keys
 		- Request coalescing

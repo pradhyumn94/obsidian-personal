@@ -8,7 +8,10 @@ date: 2026-09-13
 
 ### Design a File Storage Service Like Dropbox Guided Practice - September 13, 2026
 
-![[Dropbox.excalidraw]]
+![[Dropbox.excalidraw.md]]
+
+See also: [[Blob Storage]] · [[Real-time updates]] · [[Change Data Capture (CDC)]] · [[API design]].
+
 #### Key Takeaways
 
 **Requirements**

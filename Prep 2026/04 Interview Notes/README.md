@@ -1,5 +1,8 @@
 # Interview Notes
 
+Start here: [[Resume]] · [[Behavioral Stories]] · [[_Example Company|Company note template]].
+Prep navigation: [[HLD Index]] · [[LLD Index]] · [[Study Log]].
+
 ## What belongs here
 - `Resume.md` — your working resume content and versioning notes.
 - `Behavioral Stories.md` — your STAR story bank.

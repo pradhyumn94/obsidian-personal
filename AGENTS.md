@@ -32,7 +32,7 @@ This is an Obsidian personal prep vault, not a software repo. Treat it like a st
 - One note per high-level/system-design problem.
 - Match existing folder style: plain-English system names.
 - Use `_templates/HLD Template.md` when creating a new note.
-- `Index.md` is the tracker for planned/completed HLD problems.
+- `HLD Index.md` is the tracker for planned/completed HLD problems.
 
 ### `03 Engineering Notes/`
 
@@ -41,8 +41,8 @@ This is an Obsidian personal prep vault, not a software repo. Treat it like a st
 - One concept/topic per note.
 - Use `_templates/Technical Topic Template.md` for new concept notes.
 - HLD/LLD notes should link out to these notes instead of re-explaining concepts inline.
-- `Index.md` groups the concept notes by domain.
-- `Revision Plan.md` is the spaced-repetition checklist over these notes.
+- `Engineering Notes Index.md` groups the concept notes by domain.
+- The root `Study Log.md` records completed revisions and HLD/LLD practice by actual week; it replaces the revision schedule.
 
 ### `04 Interview Notes/`
 
@@ -82,7 +82,7 @@ This is an Obsidian personal prep vault, not a software repo. Treat it like a st
 2. Start from `_templates/Technical Topic Template.md`.
 3. Write a concise note in the existing terse style.
 4. Add cross-links/backlinks to obviously related notes.
-5. Add it to `03 Engineering Notes/Index.md` in the right domain section.
+5. Add it to `03 Engineering Notes/Engineering Notes Index.md` in the right domain section.
 
 ### Adding a new HLD or LLD note
 
@@ -95,16 +95,15 @@ This is an Obsidian personal prep vault, not a software repo. Treat it like a st
 
 1. Create/update the relevant weekly log from the weekly template.
 2. Record concrete completed notes/problems, wins, weak areas, and next steps.
-3. Keep `Roadmap.md`, weekly logs, and revision work aligned.
+3. Keep the root `Study Log.md` aligned with actual completion dates and practice notes.
 4. If reconstructing a missed week, clearly label it as reconstructed rather than guessed.
 
 ## Frequently referenced notes
 
-- `Prep 2026/Roadmap.md`
 - `Prep 2026/01 LLD/LLD Index.md`
-- `Prep 2026/02 HLD/Index.md`
-- `Prep 2026/03 Engineering Notes/Index.md`
-- `Prep 2026/03 Engineering Notes/Revision Plan.md`
+- `Prep 2026/02 HLD/HLD Index.md`
+- `Prep 2026/03 Engineering Notes/Engineering Notes Index.md`
+- `Study Log.md`
 - `_templates/Vault setup.md`
 
 ## Safe defaults

@@ -1,3 +1,5 @@
+See also: [[LLD Index]] · [[OOP Concepts]] · [[Design Principles]] · [[Design Patterns Index|Design Patterns]].
+
 1. Requirements - 5min
 	- **Primary capabilities** — What operations must this system support?
 	- **Rules and completion** — What conditions define success, failure, or when the system stops or transitions state?

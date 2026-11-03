@@ -280,3 +280,5 @@ ZooKeeper
 ```
 
 > **ZooKeeper = strongly consistent coordination + quorum + sessions + ephemeral/sequential znodes + watches.**
+
+See also: [[Leader Election, Quorum]] · [[Handling Contention]] · [[CAP Theorem]] · [[URL Shortener]].

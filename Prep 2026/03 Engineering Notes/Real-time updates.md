@@ -189,3 +189,5 @@ flowchart TB
 
 ## Bottom line
 Two hops, five client protocols, three propagation patterns. Start simple (polling), escalate only when the problem genuinely demands lower latency or bidirectionality — and always state the trade-off out loud.
+
+See also: [[Prep 2026/03 Engineering Notes/Networking 101|Networking 101]] · [[Redis]] · [[Kafka fundamentals]] · [[Consistent hashing]] · [[Ticket Master]] · [[Prep 2026/02 HLD/Dropbox|Dropbox]].

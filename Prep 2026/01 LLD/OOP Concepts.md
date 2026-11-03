@@ -1,3 +1,5 @@
+See also: [[Design Principles]] · [[Design Patterns Index|Design Patterns]] · [[Parking Lot]] · [[Amazon locker]].
+
 The concepts show through in how you design, not in what you name. Focus on applying them naturally:
 
 - **Encapsulation**: Hide state, expose behavior. Make fields private, provide methods for access
@@ -222,5 +224,3 @@ class Car:
 
 
 ```
-
-

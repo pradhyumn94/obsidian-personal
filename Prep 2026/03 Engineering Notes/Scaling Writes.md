@@ -7,10 +7,10 @@ Companion to [[Scaling Reads]] — write-heavy systems trade off differently: fe
 - **Column stores** (ClickHouse) — batch writes efficiently for analytics workloads
 - **Disable expensive features** during high-write periods — foreign key constraints, complex triggers, full-text search indexing
 - **Tune write-ahead logging** — batch multiple transactions before flushing to disk (e.g. PostgreSQL)
-- **Reduce index overhead** — fewer indexes speed up writes at the cost of read performance (see [[DB Indexing]])
+- **Reduce index overhead** — fewer indexes speed up writes at the cost of read performance (see [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]])
 
 ## 2. Sharding and partitioning
-See [[Sharding]] for shard key selection, hot-spot handling, and cross-shard tradeoffs in depth.
+See [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] for shard key selection, hot-spot handling, and cross-shard tradeoffs in depth.
 1. **Horizontal sharding** — split rows
 	- Choose a good partitioning key
 	- Consistent hashing, virtual nodes, and slot assignment schemes — see [[Consistent hashing]]

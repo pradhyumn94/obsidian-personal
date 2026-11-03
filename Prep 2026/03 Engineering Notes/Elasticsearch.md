@@ -72,6 +72,6 @@ Comes up in any interview question involving complex search (product catalogs, g
 ## Related Topics
 - [[Proximity Search]]
 - [[Change Data Capture (CDC)]]
-- [[DB Indexing]]
-- [[Sharding]]
+- [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]]
+- [[Prep 2026/03 Engineering Notes/Sharding|Sharding]]
 - [[CAP Theorem]]

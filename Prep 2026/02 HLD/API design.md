@@ -1,3 +1,5 @@
+See also: [[HLD Index]] · [[Prep 2026/03 Engineering Notes/Networking 101|Networking 101]] · [[API Gateway]] · [[GraphQL Foundations]].
+
 ## API Types
 
 - Rest

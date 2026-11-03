@@ -85,3 +85,5 @@ flowchart TD
 - Spatial tree: better geometry support, pricier/harder writes (rebalancing, or write-once for BKD).
 - Encoded cells: cheap writes (single int update per move), scales to millions of writes/sec, but mostly points-only and always need ring-query + post-filter.
 - **Always**: the index narrows to candidates; you always finish with exact distance/geometry math.
+
+See also: [[Prep 2026/03 Engineering Notes/DB Indexing|DB Indexing]] · [[PostgreSQL]] · [[Redis]] · [[Elasticsearch]] · [[Local delivery service]].

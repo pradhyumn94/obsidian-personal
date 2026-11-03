@@ -7,15 +7,15 @@
 
 ## How notes get created
 
-There's no daily-notes or auto-template automation wired up. Templates in this folder are copy-paste (see [`README.md`](_templates/README.md)):
+There's no daily-notes or auto-template automation wired up. Templates in this folder are copy-paste (see [[_templates/README|Templates guide]]):
 1. Open the relevant template file.
 2. Select all, copy.
 3. Create your new note in the right `Prep 2026/` subfolder, paste, then fill in the placeholders and delete them.
 
 ## Structure
 
-Everything prep-related lives under `Prep 2026/`, numbered by track: `01 LLD/`, `02 HLD/`, `03 Engineering Notes/`, `04 Weekly log/`, `05 Interview Notes/`. Each subfolder has its own `README.md` defining what belongs there and the naming convention — read that before adding a note, not this file.
+Prep notes live under `Prep 2026/`, numbered by track: `01 LLD/`, `02 HLD/`, `03 Engineering Notes/`, `04 Interview Notes/`. Read the folder guide in [[LLD Index]], [[HLD Index]], or [[Engineering Notes Index]] before adding a note. [[Prep 2026/04 Interview Notes/README|Interview Notes]] retains its README as a landing page.
 
 ## Weekly log
 
-`Prep 2026/04 Weekly log/` holds one file per week (`Week N (date range).md`), created manually from `Weekly Review Template.md`. There's no Templater startup script generating these — no `Work log/` or `1 Projects/` folder exists in this vault (that was an earlier, since-replaced setup).
+The root [[Study Log]] records completed revisions and HLD/LLD practice under weekly headings, using actual activity dates. Update it manually; there are no future checklists or separate weekly files.

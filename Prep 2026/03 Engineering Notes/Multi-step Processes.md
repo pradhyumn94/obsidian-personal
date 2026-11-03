@@ -86,3 +86,5 @@ flowchart LR
 - **State size growth:** pass IDs not payloads; use **Continue-as-New** (snapshot state → fresh run with empty history) for long-running/looping workflows.
 - **Waiting on external events:** signals + `condition()` with timeouts (e.g. wait 30d → remind → wait 7d → cancel). No thread/memory held while waiting.
 - **Exactly-once:** true exactly-once delivery is impossible over a network → engines give at-least-once *attempts*, exactly-once *effect* via idempotency. Pattern: mark key `IN_PROGRESS` before action, `COMPLETED` after; retry: `COMPLETED`→skip, missing→proceed, `IN_PROGRESS`→reconcile manually.
+
+See also: [[Long-running Tasks]] · [[Kafka fundamentals]] · [[Ticket Master]] · [[Distributed job scheduler]].

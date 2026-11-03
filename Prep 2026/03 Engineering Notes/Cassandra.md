@@ -1,3 +1,6 @@
+# Cassandra
+
+See also: [[DynamoDB]] · [[Consistent hashing]] · [[Prep 2026/03 Engineering Notes/Sharding|Sharding]] · [[CAP Theorem]] · [[Data Modeling]].
 
 ## What it is
 Apache Cassandra is an open-source, distributed, wide-column NoSQL database (Dynamo + Bigtable heritage). Optimized for horizontal scale, high write throughput, and availability over strict consistency.
@@ -79,6 +82,8 @@ CREATE TABLE messages (
 - Most reads still hit a single partition (current bucket); exceptions are bucket-boundary crossings or old/inactive channels.
 
 ### Ticketmaster — Ticket Browsing UI
+Applied in [[Ticket Master]]: browsing can tolerate stale data; booking still needs authoritative concurrency control.
+
 **Access pattern:** browse one event's seats at a time, tolerant of weak consistency (real availability re-checked at checkout), UI drills venue → section → seat.
 
 v1:
